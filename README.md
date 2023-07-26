@@ -1,5 +1,5 @@
 ## Introduction
-This project is aimed at helping me improve my React skills. It includes various components and features that I've built while learning React.
+This repository is aimed at helping me improve my React skills. It includes various components and features that I've built while learning React.
 
 
 ## Contributing
