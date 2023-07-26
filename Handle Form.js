@@ -12,7 +12,7 @@ function App(){
     }
   return(
     <div className="App">
-      <h1>Handle Form| check Box| Input Field| Select</h1>
+      <h1>Handle Form| check Box| Input Field| Select in React</h1>
        <form onSubmit={getFormData}>
         <input type="text" placeholder='Enter Name' value={name} onChange={(e)=>setName(e.target.value)}/> <br /><br />
         <select onChange={(e)=>setInterest(e.target.value)}>
