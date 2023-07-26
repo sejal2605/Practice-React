@@ -3,7 +3,7 @@ This project is aimed at helping me improve my React skills. It includes various
 
 
 ## Contributing
-As this is a personal practice project, contributions are not expected. However, if you have suggestions or find any issues, feel free to open an issue in the repository.
+As this is a personal practice code, contributions are not expected. However, if you have suggestions or find any issues, feel free to open an issue in the repository.
 
 
 ## Contact
