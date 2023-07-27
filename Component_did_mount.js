@@ -9,7 +9,7 @@ class App extends React.Component {
   }
   componentDidMount()
   {
-    console.warn("componentDidMount")
+    console.log("componentDidMount")
 
   }
   render()
