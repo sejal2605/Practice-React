@@ -9,7 +9,7 @@ class App extends React.Component {
   }
   shouldComponentUpdate() {
     console.log("shouldComponentUpdate", this.state.count);
-    if (this.state.count < 5) {
+    if (this.state.count > 2 && this.state.count < 10) {
       return true;
     }
   }
@@ -18,9 +18,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1> Should Component Update {this.state.count}</h1>
-        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-          Update Counter
-        </button>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}> Update Counter</button>
       </div>
     )
   }
