@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Component Did Mount Life Cycle Method </h1>
-          <h2>{this.state.name}</h2>
+        <h2>{this.state.name}</h2>
         <button onClick={()=>this.setState({name:"Sejal"})}>Update</button>
       </div>
     );
